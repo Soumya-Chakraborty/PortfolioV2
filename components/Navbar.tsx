@@ -1,8 +1,10 @@
 import { useRef } from "react";
+import { logo } from "@/public/assets";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { TbBrandGithub } from "react-icons/tb";
+import { SlSocialYoutube } from "react-icons/sl";
 import {
   SlSocialLinkedin,
   SlSocialFacebook,
@@ -10,13 +12,11 @@ import {
 } from "react-icons/sl";
 import { MdOutlineClose } from "react-icons/md";
 import { motion } from "framer-motion";
-import { logo } from "@/public/assets";
 
 const Navbar = () => {
-  const ref = useRef(null);
+  const ref = useRef<string | any>("");
   const [show, setShow] = useState(false);
-
-  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>) => {
+  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     e.preventDefault();
     setShow(false);
     const href = e.currentTarget.href;
@@ -25,7 +25,6 @@ const Navbar = () => {
     elem?.scrollIntoView({
       behavior: "smooth",
     });
-
     // Update the class name of the clicked link
     const links = document.querySelectorAll(".nav-link");
     links.forEach((link) => {
@@ -34,11 +33,12 @@ const Navbar = () => {
     e.currentTarget.classList.add("active");
   };
 
-  const handleClick = (e: React.MouseEvent<HTMLElement>) => {
-    if ((e.target as HTMLElement).contains(ref.current)) {
+  function handleClick(e: any) {
+    if (e.target.contains(ref.current)) {
+      // do something with myRef.current
       setShow(false);
     }
-  };
+  }
   return (
     <div className="w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor px-4">
       <div className="max-w-container h-full mx-auto py-1 font-titleFont flex items-center justify-between ">
@@ -127,7 +127,7 @@ const Navbar = () => {
               </motion.li>
             </Link>
           </ul>
-          <a href="/assets/Soumya_CV2023.pdf" target="_blank">
+          <a href="assets\Soumya_CV2023.pdf" target="_blank">
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -149,7 +149,7 @@ const Navbar = () => {
         </div>
         {show && (
           <div
-            ref={(node: HTMLDivElement | null) => (ref.current = node)}
+            ref={(node) => (ref.current = node)}
             onClick={handleClick}
             className="absolute mdl:hidden top-0 right-0 w-full h-screen  bg-black bg-opacity-50 flex flex-col items-end"
           >
@@ -236,7 +236,7 @@ const Navbar = () => {
                     </motion.li>
                   </Link>
                 </ul>
-                <a href="/assets/Soumya_CV2023.pdf" target="_blank">
+                <a href="assets\Soumya_CV2023.pdf" target="_blank">
                   <motion.button
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -262,7 +262,7 @@ const Navbar = () => {
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 0.9, ease: "easeIn" }}
-                    href="https://www.linkedin.com/in/soumya-chakraborty-"
+                    href="https://www.linkedin.com/in/soumya-chakraborty-/"
                     target="_blank"
                   >
                     <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
@@ -273,7 +273,7 @@ const Navbar = () => {
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 0.95, ease: "easeIn" }}
-                    href="https://www.facebook.com/profile.php?id=100089264288424&mibextid=ZbWKwL"
+                    href="https://www.facebook.com/profile.php?id=100089264288424&mibextid=ZbWKwL "
                     target="_blank"
                   >
                     <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
@@ -301,7 +301,7 @@ const Navbar = () => {
                 className="text-sm w-72 tracking-widest text-textGreen text-center mt-4"
                 href="soumyachakraborty198181@gmail.com"
               >
-                <p>soumyachakraborty198181@gmail.com</p>
+                <p>reactbd@proton.me</p>
               </motion.a>
             </motion.div>
           </div>
