@@ -146,7 +146,7 @@ const Projects = () => {
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Amazon Clone 2.0</h3>
+              <h3 className="text-2xl font-bold">Portfolio Template</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md">
               Explore the Soumya Chakraborty Portfolio Template, a personalized
