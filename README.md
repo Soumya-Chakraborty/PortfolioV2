@@ -1,20 +1,56 @@
-To make your Next.js project repository more appealing to potential contributors and users, consider enhancing the documentation, providing clear instructions, and adding some visual elements. Here's an improved version:
+<div align='center'>
 
-```markdown
-# Next.js Project Template
+<h1>PortfolioV2</h1>
+<p>This is portfolio made using Next JS framework</p>
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h4> <a href=https://soumya-chakraborty.github.io/PortfolioV2/>View Demo</a> <span> · </span> <a href="https://github.com/Soumya-Chakraborty/PortfolioV2/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/Soumya-Chakraborty/PortfolioV2/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/Soumya-Chakraborty/PortfolioV2/issues"> Request Feature </a> </h4>
 
-## Getting Started
 
-1. Clone the repository:
+</div>
 
-   ```bash
-   git clone https://github.com/your-username/your-nextjs-project.git
-   cd your-nextjs-project
-   ```
+# :notebook_with_decorative_cover: Table of Contents
 
-2. Install dependencies:
+- [About the Project](#star2-about-the-project)
+- [License](#warning-license)
+- [Contact](#handshake-contact)
+
+
+## :star2: About the Project
+
+### :art: Color Reference
+| Color | Hex |
+| --------------- | ---------------------------------------------------------------- |
+| Primary Color | ![#1d4173](https://via.placeholder.com/10/1d4173?text=+) #1d4173 |
+| Secondary Color | ![#393E46](https://via.placeholder.com/10/393E46?text=+) #393E46 |
+| Accent Color | ![#00ADB5](https://via.placeholder.com/10/00ADB5?text=+) #00ADB5 |
+| Text Color | ![#EEEEEE](https://via.placeholder.com/10/EEEEEE?text=+) #EEEEEE |
+
+## :toolbox: Getting Started
+
+### :bangbang: Prerequisites
+
+- Install Node.js and npm<a href="https://www.bing.com/search?q=node.js+download&filters=dtbk:%22MCFvdmVydmlldyFjZ192NV9kb3dubG9hZCFmNzZlMmQwMy1mODViLTEzMTctMjkyMS1jNTg4ZTg4NzU2NmE%3d%22&FORM=DEPNAV"> Here</a>
+- This project uses Yarn as package manager
+```bash
+npm install --global yarn
+```
+
+
+### :gear: Installation
+
+Clone the repository
+```bash
+git clone https://github.com/Soumya-Chakraborty/PortfolioV2.git
+```
+
+```bash
+cd PortfolioV2
+```
+
+
+### :test_tube: Running Tests
+
+Install dependencies:
 
    ```bash
    npm install
@@ -24,7 +60,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
    pnpm install
    ```
 
-3. Run the development server:
+
+### :triangular_flag_on_post: Deployment
+
+Run the development server:
 
    ```bash
    npm run dev
@@ -34,38 +73,25 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
    pnpm dev
    ```
 
-   Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-4. Start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## :wave: Contributing
 
-5. Explore API routes at [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+<a href="https://github.com/Soumya-Chakraborty/PortfolioV2/graphs/contributors"> <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" /> </a>
 
-   The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Contributions are always welcome!
 
-6. This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+see `contributing.md` for ways to get started
 
-## Learn More
+### :scroll: Code of Conduct
 
-To learn more about Next.js, take a look at the following resources:
+Please read the [Code of Conduct](https://github.com/Soumya-Chakraborty/PortfolioV2/blob/master/CODE_OF_CONDUCT.md)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## :warning: License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Distributed under the no License. See LICENSE.txt for more information.
 
-## Deploy on Vercel
+## :handshake: Contact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Soumya Chakraborty - - soumyachakraborty198181@gmail.com
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-## Contributing
-
-Feel free to fork this repository, open issues, and submit pull requests. Your contributions are highly appreciated!
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-```
-
-This enhanced version includes clear instructions for getting started, contributing, and deploying the project. It also adds a license section to inform users about the project's licensing terms. You can further customize it based on your project's specific details.
+Project Link: [https://github.com/Soumya-Chakraborty/PortfolioV2](https://github.com/Soumya-Chakraborty/PortfolioV2)
