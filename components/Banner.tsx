@@ -26,7 +26,7 @@ const Banner = () => {
       >
         Soumya Chakraborty.
         <span className="text-textDark mt-2 lgl:mt-4">
-          I build things for the Artificial Intelligent.
+          I build things for the Artificial Intelligence.
         </span>
       </motion.h1>
       <motion.p
