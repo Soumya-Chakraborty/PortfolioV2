@@ -9,14 +9,14 @@ import Splash from "./works/Splash";
 const Experience = () => {
   const [workRCCIIT, setWorkRCCIIT] = useState(true);
   const [workGoogle, setWorkGoogle] = useState(false);
-  //const [workApple, setWorkApple] = useState(false);
+  const [workApple, setWorkApple] = useState(false);
   //const [workSplash, setWorkSplash] = useState(false);
   //const [workAmazon, setWorkAmazon] = useState(false);
 
   const handleRCCIIT = () => {
-    setWorkRCCIIT(true);
+    setWorkRCCIIT(false);
     setWorkGoogle(false);
-    //setWorkApple(false);
+    setWorkApple(true);
     //setWorkSplash(false);
     //setWorkAmazon(false);
   };
@@ -24,7 +24,7 @@ const Experience = () => {
   const handleGoogle = () => {
     setWorkRCCIIT(false);
     setWorkGoogle(true);
-    //setWorkApple(false);
+    setWorkApple(false);
     //setWorkSplash(false);
     //setWorkAmazon(false);
   };
@@ -32,7 +32,7 @@ const Experience = () => {
   const handleApple = () => {
     setWorkRCCIIT(false);
     setWorkGoogle(false);
-    //setWorkApple(true);
+    setWorkApple(true);
     //setWorkSplash(false);
     //setWorkAmazon(false);
   };
@@ -66,6 +66,16 @@ const Experience = () => {
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
+            Hi-Tech System & Services.Ltd
+          </li>
+          <li
+            onClick={handleRCCIIT}
+            className={`${
+              workRCCIIT
+                ? "border-l-textGreen text-textGreen"
+                : "border-l-hoverColor text-textDark"
+            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
+          >
             RCC IIT Art and Cultural Club
           </li>
           <li
@@ -79,6 +89,7 @@ const Experience = () => {
             ISI Inturn
           </li>
         </ul>
+        {workApple && <Apple />}
         {workRCCIIT && <RCCIIT />}
         {workGoogle && <Google />}
       </div>
