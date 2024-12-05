@@ -26,7 +26,7 @@ const Banner = () => {
       >
         Soumya Chakraborty.
         <span className="text-textDark mt-2 lgl:mt-4">
-          I build things for the web.
+          I build things for the Artificial Intelligent.
         </span>
       </motion.h1>
       <motion.p
@@ -36,11 +36,10 @@ const Banner = () => {
         variants={bannerVariants}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        I am a web developer with 2+ years of experience in React and Next JS. I have a
-        strong foundation in front-end & back-end development and am skilled in
-        creating user-friendly and responsive web applications using React and
-        its ecosystem.{" "}
-        <a href="https://soumya-chakraborty.github.io/Soumyaportfolio/" target="_blank">
+        I am a Artificial Intelligent developer with 2+ years of experience  
+        in Python and R. I have a strong foundation in Pytorch & TensorFlow and am skilled in
+        creating AI for human betterment and research works.{" "}
+        <a href="https://github.com/Soumya-Chakraborty" target="_blank">
           {" "}
           <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
             Learn more
