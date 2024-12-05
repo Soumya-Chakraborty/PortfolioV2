@@ -13,19 +13,17 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            Greetings! I'm Soumya Chakraborty, and I find joy in crafting
-            digital experiences on the vast canvas of the internet. My journey
-            into web development took root in 2022, sparked by the curiosity to
-            enhance custom design themes and build websites that ignites my
-            creativity and passion for the boundless possibilities of web
-            creation!
+            Greetings! I'm Soumya Chakraborty, an AI developer with a passion for creating 
+            innovative digital solutions. My journey into AI development began in 2022, 
+            driven by a curiosity to understand and build intelligent systems that enhance user 
+            experiences and push the boundaries of what's possible in technology.
           </p>
           <p>
-            Fast-forward to today, and I’ve had the privilege of working at an
-            advertising agency, a start-up, a huge corporation, and a
-            student-led design studio. My main focus these days is building
-            accessible, inclusive products and digital experiences at
-            Upstatement for a variety of clients.
+            Since then, I've had the opportunity to work across various environments, 
+            including an advertising agency, a start-up, a large corporation, and a student-led 
+            design studio. Today, I focus on developing accessible and inclusive AI 
+            products and digital experiences at Upstatement, collaborating with diverse 
+            clients to deliver meaningful, cutting-edge solutions.
             <span> </span>
           </p>
           
@@ -35,31 +33,13 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              JavaScript (ES6+)
+              C
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Next.js
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              React
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              Node.js
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              TypeScript
+              C++
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
@@ -71,13 +51,31 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
+              R
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              C#
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              Pytorch
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
               MongoDB
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Tailwindcss
+              Tensorflow
             </li>
           </ul>
         </div>
